@@ -4,8 +4,12 @@
 // }
 
 const addTwo = require("./external.js")
+const subtract = require("./minus.js")
 
 console.log('None of this minus stuff! We dont do negative!')
 
-const sum = addTwo(3,4)
-console.log(sum)
+//const sum = addTwo(3,4)
+//console.log(sum)
+
+const total = subtract(15,5)
+console.log(total)
