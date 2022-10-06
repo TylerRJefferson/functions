@@ -5,6 +5,7 @@
 
 const addTwo = require("./external.js")
 
+console.log('None of this minus stuff! We dont do negative!')
 
 const sum = addTwo(3,4)
 console.log(sum)
